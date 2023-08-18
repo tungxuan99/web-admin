@@ -1,0 +1,14 @@
+.wire-frame__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    max-width: 800px;
+
+    &__image-2{
+        width: 100%;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,1 @@
+export { WireFrame } from "./WireFrame";
