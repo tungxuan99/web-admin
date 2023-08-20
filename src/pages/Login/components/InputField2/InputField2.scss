@@ -1,4 +1,4 @@
-.input-field {
+.input-field-2 {
   align-items: flex-start;
   border: 12px none;
   display: flex;
@@ -22,5 +22,14 @@
   &__input {
     font-size: 1.05rem;
     font-weight: 400;
+
+    .ant-input-group-addon{
+      background-color: transparent;
+      border-right: 0px;
+    }
+
+    .ant-input{
+      border-left: 0px;
+    }
   }
 }

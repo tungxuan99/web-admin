@@ -1,0 +1,47 @@
+.table-group {
+    padding: 25px;
+    border-radius: 10px;
+    background: #F0F0F0;
+    gap: 10px;
+    min-height: 210px;
+
+    &__label {
+        color: #2E2E2E;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__content {
+        display: table;
+        padding: 5px;
+        width: 100%;
+    }
+
+    &__row {
+        display: table-row;
+        padding: 5px;
+        color: #2E2E2E;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        line-height: 35px;
+
+        &__label {
+            display: table-cell;
+            padding: 5px;
+            margin: 5px;
+            width: 70%;
+        }
+
+        &__value {
+            display: table-cell;
+            padding: 5px;
+            margin: 5px;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export {TableRequirement} from './Table'
