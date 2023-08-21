@@ -43,7 +43,7 @@ const config = {
   color: "#a8ddb5",
   showContent: false,
   innerRadius: 0.6,
-  interactions: [{ type: 'tooltip', enable: false }],
+  interactions: [{ type: "tooltip", enable: false }],
   legend: false,
   statistic: {
     title: false,
@@ -97,6 +97,8 @@ export const DetailHistory = () => {
             <div className="detail-history__content__text">Matching rate:</div>
             <div className="detail-history__content__text">
               <Pie {...config} />
+            </div>
+            <div className="detail-history__content__text">
             </div>
           </div>
         </div>
