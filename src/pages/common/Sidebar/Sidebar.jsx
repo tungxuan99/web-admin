@@ -34,7 +34,7 @@ export const Sidebar = () => {
                         <IconUser className='side-bar__menu__item__icon' />
                         <NavLink
                             to={"/"}
-                            activeClassName='active'
+                            activeclassname='active'
                         >
                             Persional info
                         </NavLink>
@@ -43,7 +43,7 @@ export const Sidebar = () => {
                         <IconEdit className='side-bar__menu__item__icon' />
                         <NavLink
                             to={"/create-requirement"}
-                            activeClassName='active'
+                            activeclassname='active'
                         >
                             Create requirement
                         </NavLink>
@@ -53,7 +53,7 @@ export const Sidebar = () => {
                         <IconList className='side-bar__menu__item__icon' />
                         <NavLink
                             to={"/history"}
-                            activeClassName='active'
+                            activeclassname='active'
                         >
                             History
                         </NavLink>
@@ -63,7 +63,7 @@ export const Sidebar = () => {
                         <IconStar className='side-bar__menu__item__icon' />
                         <NavLink
                             to={"/referrals"}
-                            activeClassName='active'
+                            activeclassname='active'
                         >
                             Referrals
                         </NavLink>
